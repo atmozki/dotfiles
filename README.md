@@ -40,6 +40,22 @@ cd zshvimrc
 ```
 -->
 
+## Dependencies
+
+- zsh-syntax-highlighting - syntax highlighting for ZSH in standard repos
+- zsh-autosuggestions - Suggestions based on your history
+
+### For ARCH
+
+```
+bash
+yay -S zsh-syntax-highlighting zsh-autosuggestions
+```
+  
+Finish the conversion by changing your user in `/etc/passwd` to `/bin/zsh` instead of `/bin/bash`
+
+or typing `chsh $USER` and entering `/bin/zsh`
+
 ## Troubleshooting
 
 __[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)__.
