@@ -1,5 +1,5 @@
-![GH language](https://img.shields.io/github/languages/top/atmozki/zshvimrc)
-![GH license](https://img.shields.io/github/license/atmozki/zshvimrc)
+![GH language](https://img.shields.io/github/languages/top/atmozki/zsvimrc)
+![GH license](https://img.shields.io/github/license/atmozki/zsvimrc)
 
 
     ███████╗░██████╗██╗░░██╗██╗░░░██╗██╗███╗░░░███╗██████╗░░█████╗░
