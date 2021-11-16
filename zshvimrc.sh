@@ -12,4 +12,4 @@ echo -e "   █▄█ ░█░   █▀█ ░█░ █░▀░█�
 echo -e "---------------------------------------------------------------------"
 
 cp "$HOME/zshvimrc/.zshrc" $HOME/.zshrc
-ln -s "$HOME/zshvimrc/.zshrc" $HOME/.vimrc
+cp "$HOME/zshvimrc/.zshrc" $HOME/.vimrc
