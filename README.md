@@ -51,8 +51,7 @@ cd zshvimrc
 ### For ARCH
 
 ```
-bash
-yay -S zsh-syntax-highlighting zsh-autosuggestions
+sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions
 ```
   
 Finish the conversion by changing your user in `/etc/passwd` to `/bin/zsh` instead of `/bin/bash`
