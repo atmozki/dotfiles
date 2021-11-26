@@ -15,7 +15,7 @@
 My Config files for zsh and vim.
 
 
-<img src="zshvimrc.jpg" />
+<img src="image.jpg" />
 
 
 
