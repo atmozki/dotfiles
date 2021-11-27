@@ -11,7 +11,24 @@ echo -e "   █▄▄ █▄█   ▄▀█ ▀█▀ █▀▄▀█�
 echo -e "   █▄█ ░█░   █▀█ ░█░ █░▀░█ █▄█ █▄ █░█ █"
 echo -e "---------------------------------------------------------------------"
 
-cp "$HOME/zshvimrc/.zshrc" $HOME/.zshrc
-cp "$HOME/zshvimrc/.vimrc" $HOME/.vimrc
+read -p "Do you want to copy both ZSHRC and VIMRC ? [y/n]" answer
+if [[ $answer = y ]] ; then
+    echo "Copying both ZSHRC and VIMRC"
+    cp "$HOME/zshvimrc/.zshrc" $HOME/.zshrc
+    cp "$HOME/zshvimrc/.vimrc" $HOME/.vimrc
+fi
+if [[ $answer = n ]] ; then
+    read -p "Which to Copy 1)ZSHRC or 2)VIMRC ? [1/2]" op
+    if [[ $op = 1 ]] ; then
+    echo "Copying ZSHRC"
+    cp "$HOME/zshvimrc/.zshrc" $HOME/.zshrc   
+    fi
+    if [[ $op = 2 ]] ; then
+    echo "Copying VIMRC"
+    cp "$HOME/zshvimrc/.vimrc" $HOME/.vimrc
+    fi
+fi
 
-echo -e "------------------------------DONE----------------------------------"
+echo -e "---------------------------------------------------------------------"
+echo -e "-------------------------------DONE----------------------------------"
+echo -e "---------------------------------------------------------------------"
