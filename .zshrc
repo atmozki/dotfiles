@@ -83,7 +83,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions web-search zsh-interactive-cd)
+plugins=(git zsh-autosuggestions web-search zsh-interactive-cd zsh-navigation-tools sudo)
 
 if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
@@ -143,8 +143,13 @@ fi
 ### ALIASES ###
 
 #Custom list
-alias icat='kitty +kitten icat'
+alias icat='kitty +kitten icat' #view images in kitty
 alias vim='nvim'
+alias vi='nvim'
+alias ping='ping -c 5' #Ping - stops after 5 pings
+alias redo='sudo $(fc -ln -1)' #Redo previous command or double escape key
+alias rc='conky -c $HOME/.config/conky/main' #Reapply my conky
+alias yeet='sudo pacman -Scc' #Remove all packages (whether they are installed or uninstalled) from the cache
 
 #list
 alias ls='ls --color=auto'
