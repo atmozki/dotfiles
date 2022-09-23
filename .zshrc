@@ -83,7 +83,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions web-search zsh-interactive-cd zsh-navigation-tools sudo)
+plugins=(git zsh-autosuggestions web-search zsh-interactive-cd zsh-navigation-tools sudo z aliases)
 
 if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
@@ -143,6 +143,16 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
+### Function ###
+
+#Git Add/Commit/Push function
+
+function acp () {
+  git add .
+  git commit -m "$*"
+  git push origin main
+}
+
 ### ALIASES ###
 
 #Custom list
@@ -156,6 +166,7 @@ alias yeet='sudo pacman -Scc' #Remove all packages (whether they are installed o
 alias emacs="emacsclient -c -a 'emacs'" #Run emacsclient alias
 alias singlemoni="xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off" #QuickSwitch to single monitor
 alias multimoni="xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --off" #QuickSwitch to double monitor
+alias cpc="xclip -sel c < " #Copy file contents to clipboard
 
 #list
 alias ls='ls --color=auto'
@@ -175,7 +186,7 @@ alias upqll='paru -Syu --noconfirm'
 alias upal='paru -Syu --noconfirm'
 
 ## Colorize the grep command output for ease of use (good for log files)##
-alias grep='grep --color=auto'
+alias G='grep --color=auto -i'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
