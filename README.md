@@ -1,5 +1,5 @@
-![GH language](https://img.shields.io/github/languages/top/atmozki/zshvimrc?style=for-the-badge)
-![GH License](https://img.shields.io/github/license/atmozki/zshvimrc?style=for-the-badge)
+![GH language](https://img.shields.io/github/languages/top/atmozki/dotfiles?style=for-the-badge)
+![GH License](https://img.shields.io/github/license/atmozki/dotfiles?style=for-the-badge)
 
 
         ▓█████▄  ▒█████  ▄▄▄█████▓  █████▒██▓ ██▓    ▓█████   ██████                
@@ -31,7 +31,7 @@ This is my personal collection of configuration files.
 
 
 
-This README shows how to install my customised zshrc and vimrc files.
+This README shows how to install my customised dotfiles for Neovim, Doom Emacs and Zsh.
 
 
 ---
@@ -40,40 +40,20 @@ This README shows how to install my customised zshrc and vimrc files.
 Type the following commands:
 
 ```
-git clone https://github.com/atmozki/zshvimrc.git
-cd zshvimrc
-./zshvimrc.sh
+git clone https://github.com/atmozki/dotfiles.git
+cd dotfiles
+sh ./install.sh
 ```
-<!--
-**OR (For Private)**
-
-```
-git clone git@github.com:atmozki/zshvimrc.git
-cd zshvimrc
-./zshvimrc.sh
-```
--->
 
 ## Dependencies
 
-- zsh-syntax-highlighting - syntax highlighting for ZSH in standard repos
-- zsh-autosuggestions - Suggestions based on your history
+- [neovim](https://neovim.io/)
+- [Emacs](https://www.gnu.org/software/emacs/)
+- [Doom Emacs](https://github.com/doomemacs/doomemacs)
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
-### For ARCH
+## Change Shell to Zsh
 
-```
-sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions
-```
-  
-Finish the conversion by changing your user in `/etc/passwd` to `/bin/zsh` instead of `/bin/bash`
-
-or typing `chsh $USER` and entering `/bin/zsh`
-
-## Troubleshooting
-
-__[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)__.
-
-
-## Credits
-
-- Amix's **[VIMRC](https://github.com/amix/vimrc)**.
+`chsh /bin/zsh`

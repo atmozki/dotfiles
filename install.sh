@@ -24,22 +24,19 @@ echo -e "          ░░ ░                                              ░  
 echo -e "                                                                                      "
 echo -e "--------------------------------------------------------------------------------------"
 
-read -p "Do you want to copy both ZSHRC and VIMRC ? [y/n]" answer
+read -p "Do you want to copy the dotfiles [y/n]" answer
 if [[ $answer = y ]] ; then
-    echo "Copying both ZSHRC and VIMRC"
-    cp "$HOME/zshvimrc/.zshrc" $HOME/.zshrc
-    cp "$HOME/zshvimrc/.vimrc" $HOME/.vimrc
+    echo "Copying dotfiles......"
+    echo "Copying Neovim and Doom Emacs Config....."
+    cp -r .config/nvim ~/.config/
+    cp -r .doom.d ~/
+    echo "Copying .zshrc and powerlevel10k theme config...."
+    cp -r .zshrc ~/
+    cp -r .p10k.zsh ~/
+    echo "Make sure to install the required dependencies..."
 fi
 if [[ $answer = n ]] ; then
-    read -p "Which to Copy 1)ZSHRC or 2)VIMRC ? [1/2]" op
-    if [[ $op = 1 ]] ; then
-    echo "Copying ZSHRC"
-    cp "$HOME/zshvimrc/.zshrc" $HOME/.zshrc   
-    fi
-    if [[ $op = 2 ]] ; then
-    echo "Copying VIMRC"
-    cp "$HOME/zshvimrc/.vimrc" $HOME/.vimrc
-    fi
+    echo "Exiting!...."
 fi
 
 echo -e "--------------------------------------------------------------------------------------"
