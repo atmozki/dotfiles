@@ -50,3 +50,5 @@
 ;(unpin! t)
 
 (package! tldr)
+(package! codeium :recipe (:host github :repo "Exafunction/codeium.el"))
+(package! beacon)
