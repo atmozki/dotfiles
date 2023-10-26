@@ -21,7 +21,7 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "Monospace" :size 16 :weight 'regular))
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 16 :weight 'regular))
 ;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
@@ -43,18 +43,10 @@
       browse-url-generic-program "microsoft-edge-stable")
 
 ;; True Transparency
-(add-to-list 'default-frame-alist '(alpha-background . 85))
+(add-to-list 'default-frame-alist '(alpha-background . 90))
 
 ;; Beacon Mode Enable
 (beacon-mode 1)
-
-;; Set elfeed Rss Feeds
-(setq elfeed-feeds (quote
-                    (("https://www.reddit.com/r/linux.rss" reddit linux)
-                     ("https://www.reddit.com/r/commandline.rss" reddit commandline)
-                     ("https://www.reddit.com/r/emacs.rss" reddit emacs)
-                     ("https://psa.wf/tag/2160p/feed/" 4K psarips)
-                     ("https://psa.wf/category/tv-show/feed/" tv-shows psarips))))
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
