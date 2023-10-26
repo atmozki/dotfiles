@@ -50,6 +50,7 @@ sh ./install.sh
 - [neovim](https://neovim.io/)
 - [Emacs](https://www.gnu.org/software/emacs/)
 - [Doom Emacs](https://github.com/doomemacs/doomemacs)
+- [Newsboat](https://wiki.archlinux.org/title/Newsboat)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
