@@ -30,6 +30,7 @@ if [[ $answer = y ]] ; then
     cp -r .config/nvim ~/.config/
     cp -r .config/doom ~/.config/
     cp -r .config/kitty ~/.config/
+    cp -r .config/newsboat ~/.config/
     echo "Copying .zshrc and powerlevel10k theme config...."
     cp -r .zshrc ~/
     cp -r .p10k.zsh ~/
