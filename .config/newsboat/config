@@ -1,9 +1,13 @@
-
 # General Settings
 auto-reload yes
+history-limit 20
 browser "/usr/bin/microsoft-edge-stable %u"
 
+# Unbinding
+unbind-key ,
+
 # Keybindinds
+bind-key ; macro-prefix
 bind-key h quit
 bind-key j down
 bind-key k up
@@ -29,4 +33,4 @@ highlight article ":.*\\(image\\)$" blue default
 highlight article ":.*\\(embedded flash\\)$" magenta default
 
 # Macros
-# macro o set browser "microsoft-edge-stable"; open-in-browser ; set browser linkhandler
+# macro o set browser "microsoft-edge-stable"; open-in-browser-noninteractively ; set browser linkhandler
