@@ -1,6 +1,7 @@
 # General Settings
 auto-reload yes
 history-limit 20
+max-items 25
 browser "/usr/bin/microsoft-edge-stable %u"
 
 # Unbinding

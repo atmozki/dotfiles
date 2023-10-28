@@ -1,5 +1,6 @@
 "---PSARips---"
 https://psa.wf/tag/2160p/feed/
+https://psa.wf/category/movie/feed/
 https://psa.wf/category/tv-show/feed/
 
 "---Linux News Reddit---"
@@ -7,21 +8,21 @@ https://www.reddit.com/r/linux.rss
 https://www.reddit.com/r/archlinux.rss
 https://www.reddit.com/r/unixporn.rss
 https://www.reddit.com/r/emacs.rss
+https://www.reddit.com/r/neovim.rss
 https://www.reddit.com/r/vim.rss
-https://www.reddit.com/r/bash.rss
 https://www.reddit.com/r/commandline.rss
 https://www.reddit.com/r/AskLinuxUsers.rss
 https://www.reddit.com/r/linuxquestions.rss
 
 "---YouTube---"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw
-https://www.youtube.com/feeds/videos.xml?channel_id=UCdBK94H6oZT2Q7l0-b0xmMg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYyDbdaja1UDNdFSwUrYVGA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UCylGUf9BvQooEFjgdNudoQg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCqjVP9gAanUGFgTA5BRDvyA
-https://www.youtube.com/feeds/videos.xml?channel_id=UC_1awbvccFZOnVRjAIkCG7Q
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw # LinusTechTips
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdBK94H6oZT2Q7l0-b0xmMg # ShortCircuit
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA # TechLinked
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYyDbdaja1UDNdFSwUrYVGA # John Campea
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ # MKBHD
+https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g # Matt Wolfe
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg # DistroTube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ # Chris Titus Tech
+https://www.youtube.com/feeds/videos.xml?channel_id=UCylGUf9BvQooEFjgdNudoQg # The Linux Cast
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqjVP9gAanUGFgTA5BRDvyA # HowToMen
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_1awbvccFZOnVRjAIkCG7Q # Sam Beckman
