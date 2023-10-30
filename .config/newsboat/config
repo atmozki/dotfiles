@@ -2,7 +2,8 @@
 auto-reload yes
 history-limit 20
 max-items 25
-browser "/usr/bin/microsoft-edge-stable %u"
+browser "~/.local/bin/linkhandler"
+# browser "/usr/bin/microsoft-edge-stable %u"
 
 # Unbinding
 unbind-key ,
@@ -34,4 +35,4 @@ highlight article ":.*\\(image\\)$" blue default
 highlight article ":.*\\(embedded flash\\)$" magenta default
 
 # Macros
-# macro o set browser "microsoft-edge-stable"; open-in-browser-noninteractively ; set browser linkhandler
+macro o set browser "microsoft-edge-stable" ; open-in-browser
