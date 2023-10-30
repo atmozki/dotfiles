@@ -43,7 +43,7 @@
       browse-url-generic-program "microsoft-edge-stable")
 
 ;; True Transparency
-(add-to-list 'default-frame-alist '(alpha-background . 90))
+(add-to-list 'default-frame-alist '(alpha-background . 85))
 
 ;; Beacon Mode Enable
 (beacon-mode 1)
