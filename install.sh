@@ -27,11 +27,8 @@ echo -e "-----------------------------------------------------------------------
 read -p "Do you want to copy the dotfiles [y/n]" answer
 if [[ $answer = y ]] ; then
     echo "Copying dotfiles......"
-    cp -r .config/nvim ~/.config/
-    cp -r .config/doom ~/.config/
-    cp -r .config/kitty ~/.config/
-    cp -r .config/ranger ~/.config/
-    cp -r .config/newsboat ~/.config/
+    cp -r .config ~/
+    cp -r .local ~/
     echo "Copying .zshrc and powerlevel10k theme config...."
     cp -r .zshrc ~/
     cp -r .p10k.zsh ~/
