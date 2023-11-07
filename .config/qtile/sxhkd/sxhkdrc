@@ -1,0 +1,40 @@
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# Rofi & dmenu & Scripts
+
+super + d
+    rofi -show drun
+
+super + p
+    rofi -show power-menu -modi power-menu:rofi-power-menu
+
+super + o
+    ~/.local/bin/picomtoggle
+
+# Applications
+
+super + r
+    kitty -e --class ranger ranger
+
+super + v
+    kitty -e --class nvim nvim
+
+super + z
+    kitty -e --class newsboat newsboat
+
+# super + shift + Return
+#     dm-run
+
+# Brighness control
+XF86MonBrightness{Up,Down}
+    xbacklight{ -10, +10}
+
+# Volume control
+XF86Audio{RaiseVolume,LowerVolume}
+    amixer set Master{ 5%+, 5%-}
+
+# Volume mute
+XF86AudioMute
+    amixer set Master toggle
