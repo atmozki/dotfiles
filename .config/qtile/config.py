@@ -243,7 +243,7 @@ def init_widgets_list():
     widgets_list = [
         widget.Spacer(length = 8),
         widget.Image(
-            # filename = "~/.config/qtile/icons/atmozki26px.png",
+            # filename = "~/Downloads/azbg.png",
             scale = "True",
             active = colors[8],
             inactive = colors[1],
@@ -320,6 +320,9 @@ def init_widgets_list():
         widget.Battery(
             foreground = colors[6],
             font = "JetBrains Noto Sans",
+            charge_char = '+',
+            discharge_char = '-',
+            format = '{char} {percent:2.0%}',
             fontsize = 15,
             fmt = " 󰁹 BAT: {}",
         ),
